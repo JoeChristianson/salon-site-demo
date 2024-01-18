@@ -1,0 +1,56 @@
+@import "@/style/variables";
+
+.hero{
+    background:$light-bg;
+    img{
+        width: clamp(400px,40vw,900px);
+    }
+    >div{
+        position: relative;
+        >div:first-of-type{
+            justify-content: flex-start;
+            align-items: flex-start;
+            background:none;
+            opacity: .95;
+        }
+
+    }
+    @media screen and (max-width:750px) {
+        a{
+            margin:auto;
+            button{
+                background-color:#5d0101 !important;
+                opacity: 1;
+                position: absolute;
+                bottom:40px;
+                left:50%;
+                transform: translateX(-50%);
+                width: 70vw;
+            }
+        }
+        
+    }
+}
+
+.three-grid-one{
+    background:rgb(255, 255, 255);
+    >div:nth-child(1){
+        background: hsl(65, 100%, 95%);
+    }
+    >div:nth-child(2){
+        background:hsl(8, 78%, 91%);
+    }
+    >div:nth-child(3){
+        background:hsl(201, 100%, 87%);
+    }
+}
+
+.appointment-section{
+    background:rgb(252, 232, 252);
+}
+
+.about{
+    background: rgb(28, 28, 28);
+    color:rgb(221, 208, 226);
+    
+}
