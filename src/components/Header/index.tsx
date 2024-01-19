@@ -18,7 +18,7 @@ const fullClassName = styles.header+" " + className||""
 
     return<HamburgerHeader1
     navItems={navItems}
-    src='/images/logo.webp'
+    src='/images/logo.png'
     alt='abstract logo'
     className={fullClassName}
     >
