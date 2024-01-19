@@ -3,29 +3,29 @@ import styles from "./index.module.scss"
 export default function Home() {
 
   const cards = [
-    {image:"/images/three-grid-1/image1.png",alt:"",heading:"Natural",subheading:"Feeling"},
-    {image:"/images/three-grid-1/image2.png",alt:"",heading:"Full",subheading:"Substance"},
-    {image:"/images/three-grid-1/image3.png",alt:"",heading:"Pure",subheading:"Radiance"}
+    {image:"/images/three-grid-1/image1.webp",alt:"",heading:"Natural",subheading:"Feeling"},
+    {image:"/images/three-grid-1/image2.webp",alt:"",heading:"Full",subheading:"Substance"},
+    {image:"/images/three-grid-1/image3.webp",alt:"",heading:"Pure",subheading:"Radiance"}
   ]
 
 
   const testimonials = [
     {
-      img:"/images/testimonials/image1.png",
+      img:"/images/testimonials/image1.webp",
       alt:"",
       name:"Maria Turner",
       title:"Regular Client",
       quote:"I visited for a bridal hair trial and was blown away by the creativity and expertise on display. The stylist understood exactly what I wanted and made it even better than I imagined. I've already booked them for my wedding day!"
     },
     {
-      img:"/images/testimonials/image2.png",
+      img:"/images/testimonials/image2.webp",
       alt:"",
       name:"Sophia Hais",
       title:"New Client",
       quote:"This salon is a hidden gem! From the relaxing atmosphere to the top-notch styling services, every visit is a luxury experience. My hair has never looked better, and I've found my go-to spot for all my beauty needs."
     },
     {
-      img:"/images/testimonials/leo.png",
+      img:"/images/testimonials/leo.webp",
       alt:"",
       name:"Leo Martinez",
       title:"Model",
@@ -42,18 +42,18 @@ export default function Home() {
       boldHeading="Beauty"
       lightHeading="Elegance"
       paragraph="We believe in the art of beauty. Every client is special, and our aim is to make you feel your absolute best. "
-      image="/images/hero-figure.png"
+      image="/images/hero-figure.webp"
       className={styles.hero}
       ></Hero1>
       <ThreeGrid1
       className={styles['three-grid-one']}
       cards={cards}></ThreeGrid1>
       <FullWidthImageSection
-      src="/images/full-width-1/image2.jpg"
+      src="/images/full-width-1/image2.webp"
       alt="alt"
       ></FullWidthImageSection>
       <AppointmentBooking1
-      src="/images/appointment/image1.png"
+      src="/images/appointment/image1.webp"
       alt=""
       className={styles['appointment-section']}
       availableServices={["hair cut","hair dye","eyebrows"]}
@@ -61,7 +61,7 @@ export default function Home() {
       <Testimonials1
       testimonials={testimonials}
       ></Testimonials1>
-      <About1 img="/images/about/image1.png" alt={""} smallHeading={""} bigHeading={"Glamour Grove"} text={aboutText} steleBg={"#eeddff"} className={styles.about}></About1>
+      <About1 img="/images/about/image1.webp" alt={""} smallHeading={""} bigHeading={"Glamour Grove"} text={aboutText} steleBg={"#eeddff"} className={styles.about}></About1>
     </main>
   )
 }

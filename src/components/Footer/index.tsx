@@ -15,7 +15,7 @@ const socials = {
 const Footer = ({}: Props) => {
     return <StandardFooter
     className={styles.footer}
-    src="/images/logo.png"
+    src="/images/logo.webp"
     alt="abstract logo"
     socials={socials}
     logoText={<LogoText/>}

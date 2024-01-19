@@ -53,9 +53,9 @@ const skinTreatments = [
 
 const Services = ({}: Props) => {
     return <main className={styles['main']}>
-        <ServicesSection1 alt="" img="/images/services/image1.png" overheading="Beauty Salon" category="Hair" services={hairServices}></ServicesSection1>
-        <ServicesSection1 alt="" img="/images/services/image2.png"  overheading="Beauty Salon" category="Skin"  services={skinTreatments} reverse={true}></ServicesSection1>
-        <ServicesSection1 alt="" img="/images/services/image3.png"  overheading="Beauty Salon" category="Makeup" services={makeupServices}></ServicesSection1>
+        <ServicesSection1 alt="" img="/images/services/image1.webp" overheading="Beauty Salon" category="Hair" services={hairServices}></ServicesSection1>
+        <ServicesSection1 alt="" img="/images/services/image2.webp"  overheading="Beauty Salon" category="Skin"  services={skinTreatments} reverse={true}></ServicesSection1>
+        <ServicesSection1 alt="" img="/images/services/image3.webp"  overheading="Beauty Salon" category="Makeup" services={makeupServices}></ServicesSection1>
     </main>
 }
 
