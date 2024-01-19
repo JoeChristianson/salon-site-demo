@@ -6,17 +6,17 @@ type Props = {
 }
 
 const team = [{
-    src:"/images/team/image4.png",
+    src:"/images/team/image4.webp",
     alt:"",
     name:"Olivia Johnson",
     position:"Manager / Stylist"
 },{
-    src:"/images/team/image2.png",
+    src:"/images/team/image2.webp",
     alt:"",
     name:"Mary Olsen",
     position:"Stylist"
 },{
-    src:"/images/team/image3.png",
+    src:"/images/team/image3.webp",
     alt:"",
     name:"Jessica Thurton",
     position:"Stylist"
@@ -27,7 +27,7 @@ const team = [{
 const About = ({}: Props) => {
     return <main className={styles['main']}>
         <ImageAndTextSideBySide
-        src="/images/about/image2.png"
+        src="/images/about/image2.webp"
         alt=""
         reverse={true}
         className={styles.section1}
